@@ -10,9 +10,13 @@
       width: 100%;
       height: 100vh;
       background-repeat: no-repeat;
-      background: url(https://wallpaperset.com/w/full/5/9/e/494748.jpg)
+      background: url(https://d.ibtimes.co.uk/en/full/1578573/us-charges-3-chinese-citizens-hacking-law-firms-facilitate-insider-trading.jpg?w=330&h=280&l=50&t=40)
   }
   
   a {
       color: azure;
+  }
+  
+  #welcome {
+      color: white;
   }
