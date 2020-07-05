@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+
+/* 
+.col-md-1 {
+    flex-basis: 25%;
+    max-width: 25%;
+} */
+
+body {
+    background: url(https://d.ibtimes.co.uk/en/full/1578573/us-charges-3-chinese-citizens-hacking-law-firms-facilitate-insider-trading.jpg?w=330&h=280&l=50&t=40);
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background: url(https://d.ibtimes.co.uk/en/full/1578573/us-charges-3-chinese-citizens-hacking-law-firms-facilitate-insider-trading.jpg?w=330&h=280&l=50&t=40);
+    background-size: cover;
+    background-repeat: repeat-y; */
+    padding-bottom: 15rem;
+}
+
+#ul-nav {
+    margin-top: -50px;
+    padding-left: 220px;
+}
+
+section .left_box {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 100px;
+    box-sizing: border-box;
+    padding-top: 135px;
+}
+
+section .left_box .content {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    transition: 0.5s;
+}
+
+section .left_box .content h1 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+section .left_box .content p {
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+section .left_box .content:hover {
+    background: #e91e63;
+}
+
+section .events {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background: rgba( 0, 0, 0, 0.5);
+    box-sizing: border-box;
+    float: right;
+}
+
+ul {
+    position: absolute;
+    /*transform: translateY(-50%);*/
+    margin: 0;
+    top: 10%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+section .events ul li {
+    list-style: none;
+    background: #fff;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+
+.time {
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: 0.5s;
+}
+
+li:hover .time {
+    background: #e91e63;
+}
+
+.time h2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.time span {
+    font-size: 30px;
+}
+
+.details {
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.details h3 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+.details p {
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.details a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: .5s;
+    color: #262626;
+}
+
+section .events ul li .details a:hover {
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+
+@media (max-width: 991px) {
+    section {
+        height: 100%;
+        background-position: center;
+    }
+    section .left_box {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        float: none;
+    }
+    section .events {
+        width: 100%;
+        height: auto;
+        float: none;
+        background: transparent;
+    }
+    section .events ul {
+        position: relative;
+        transform: translateY(0px);
+        padding: 0 20px 20px;
+    }
+    section .left_box .content {
+        padding: 20px;
+    }
+    section .left_box .content h1 {
+        font-size: 30px;
+    }
+    section .events ul li {
+        height: auto;
+        background: rgba(255, 255, 255, 0.9);
+    }
+    section .events ul li .time {
+        width: 80px;
+        height: 80px;
+        padding: 0;
+    }
+    section .events ul li .time h2 {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    section .events ul li .time h2 span {
+        font-size: 20px;
+    }
+    section .events ul li .details {
+        width: 100%;
+        float: none;
+        padding-left: 100px;
+        background: transparent;
+    }
+    section .events ul li .details a {
+        padding: 5px 10px;
+        height: 100%;
+    }
+}
