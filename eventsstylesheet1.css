@@ -46,6 +46,10 @@ section {
     padding-left: 220px;
 }
 
+#navigation {
+    margin-top: 1.5rem!important;
+}
+
 section .left_box {
     width: 50%;
     height: 100%;

@@ -13,6 +13,10 @@
       background: url(https://d.ibtimes.co.uk/en/full/1578573/us-charges-3-chinese-citizens-hacking-law-firms-facilitate-insider-trading.jpg?w=330&h=280&l=50&t=40)
   }
   
+  #navigation {
+      margin-top: .25rem!important;
+  }
+  
   a {
       color: azure;
   }
